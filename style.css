@@ -1,0 +1,63 @@
+/*
+a:link – Normal ziyaret edilmemiş bağlantı.
+a:visited – Kullanıcının ziyaret ettiği bir bağlantı.
+a:hover – Kullanıcının faresinin üzerinde gezindiği bağlantı.
+a:active – Tıklanmış olan bağlantı.
+*/
+
+/*anasayfa düzeni*/
+#body
+{
+  background-color:#292f38;
+}
+/*Exemia.net Nedir ? yazısı düzeni*/
+.who
+{
+    text-align: center;
+    color: red;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    
+}
+/*etiketlerin hepsinin renginin stabil beyaz yapılması*/
+p,p1,p2,pre
+{
+    color: white;
+}
+/* p tagının içinde centerlar*/
+p.center
+{
+  text-align: center;    
+}
+/*iyi seyirler yazısının düzeni*/
+#enjoy
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}
+/* p2 tagı için özelleşitirme*/
+#url
+{
+    border-style: solid;
+    border-color: red;
+}
+/*Linkler*/
+a:link
+{
+    color: white;
+}
+
+a:hover
+{
+    color: red;
+}
+
+a:visited
+{
+    color:white;
+}
+
+a:active
+{
+    color: red;
+}
